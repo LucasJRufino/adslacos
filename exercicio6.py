@@ -17,6 +17,6 @@ valor = int(input("Insira o valor inicial: "))
 
 for i in range(12):
     print("Mês ", i + 1, ": ")
-    M = valor * ((1 + 0.05)**(i+1))
+    M = valor * ((1 + 0.005)**(i+1))
     print("R$%.2f" % M)
     
